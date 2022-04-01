@@ -1,0 +1,213 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.walltetButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    padding: 0px 8px ;
+    border-radius: 10px;
+}
+.walltetButton img{
+    padding: 10px;
+}
+
+.Dashboard{
+    position: relative;
+    position: fixed     ;
+    top:70px ;
+    z-index: 999;
+    left:-380px ;
+    transition: .3s;
+    width: 380px;
+
+    height: 93vh;
+
+   
+    /* display: none; */
+    background: linear-gradient(#1CC4E9 ,#45339D);
+}
+.kittyImg{
+    display: flex;
+    justify-content: center;
+}
+.kittyImg img{
+    border-radius: 50%;
+    border: 10px solid rgb(211, 211, 211,0.5);
+}
+.kittyContent{
+    text-align: center;
+    color: white;
+    line-height: 15px;
+    border-bottom: 1px solid rgb(211, 211, 211 ,0.7);
+    padding-bottom: 50px ;
+    margin: 0px 40px;
+}
+.kittyContent h2{
+
+    font-weight: bold;
+}
+.bio{
+ padding-left: 40px;
+
+ color: white;
+
+}
+
+.Content{
+    
+    position: relative;
+
+}
+.cardbg{
+    width: 80%;
+    height: 300px;
+
+    /* background-color: #1CC4E9   ; */
+    background-image: url(./images/kittiesbanner.jfif);
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+.cardSection{
+    text-align: center;
+    
+}
+.cardSection h1{
+    background: linear-gradient(#1CC4E9 ,#45339D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+.header img{
+    border-radius: 50%;
+}
+.header{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.cardfooter{
+    display: flex;
+    align-items: center;
+    
+}
+.cardfooter p{
+    margin-top: 7px;
+}
+.cardfooter img{
+    padding: 3px;
+}
+.cardfooterimg img{
+    border-radius: 50%;
+}
+.footerContent{
+    line-height: 5px;
+}
+.card-body{
+    padding:  6px !important;
+}
+.card-body p{
+    text-align: start;
+
+}
+.cards{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211 ,0.4);
+
+}
+.cards{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+
+    border-radius: 10px !important;
+}
+
+.toggleImg{
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    padding: 10px 12px;
+    background: linear-gradient(#1CC4E9 ,#45339D);
+
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    /* display: none; */
+    margin: 6px 3px;
+}
+
+.fa-arrow-right-to-bracket{
+    color: #fff;
+}
+
+
+@media (max-width: 991.98px) {
+
+    .Dashboard{
+        top: 60px !important;
+    }
+
+ }
+
+ @media (max-width: 447.98px) { 
+
+    
+    .kittyImg img{
+        width: 260px !important;
+    }
+
+
+  }
+  .footerbg{
+
+      background-color: #F9FAFB;
+  }
+  .footer{
+      display: flex;
+      justify-content: space-around;
+      color: gray;
+      padding: 20px;
+      flex-wrap: wrap;
+      padding-top: 80px;
+  }
+  .footer ul li{
+      list-style: none;
+
+  }
+  .copy{
+      text-align:center;
+
+    background: linear-gradient(#1CC4E9 ,#45339D);
+
+      color: #ffff;
+      padding: 4px;
+
+
+
+  }
+  .page{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      padding-top: 30px;
+  }
+  .footerlogo{
+      padding: 10px;
+  }
+  .footerLinks{
+      padding: 10px;
+  }
